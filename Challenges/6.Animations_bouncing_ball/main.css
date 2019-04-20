@@ -1,0 +1,52 @@
+.ball {
+  width: 100px;
+  height:100px;
+  top: 0px;
+  background-color: darkblue;
+  border-radius: 50%;
+  position: relative;
+  
+  
+  animation-name: jump;
+  animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state: 0.5s;
+  
+
+  animation-fill-mode: both;
+
+  -webkit-animation-name: jump;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+}
+
+.ball:hover {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+
+}
+
+
+@keyframes jump {
+  0% {
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    border-radius: 50%;
+  }
+  
+  100% {
+    top: 100px;
+    height: 80px;
+    width: 120px;
+    border-radius: 80%;
+  }
+}

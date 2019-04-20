@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+ }
+
+html body main {
+  position: relative;
+}
+nav {
+  background-color: #013220;
+  color: #d3d3d3;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+section {
+  color: #013220;
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 50px;
+}
+
+.element {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+
+  background-color: #000000;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.element:hover {
+  transform: translateX(100%);
+}

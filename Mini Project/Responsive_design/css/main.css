@@ -1,0 +1,97 @@
+body, html {
+    margin: 0; 
+    color: #F7FFFF;
+    height: 100%;
+}
+
+.logo {
+    position: fixed;
+    background-color: #ab1213;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    z-index: 3;
+}
+
+.main {
+    background-color: #111e6c;
+    height: 100%;
+}
+
+.section {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.article, .aside {
+    height: 100%;
+}
+
+p {                                                                             /* when lorem50 becomes lorem100 it will overtext the smaller phone viewport devices vertically the text will go under the header & footer. */
+    margin: 25px;                                                               /* Question 1: If i put the css code in here, then it works: max-height: 100px; overflow-y: scroll; This will create a overflow box.*/ 
+    font-size: 1em;                                                             /* But i want it only to be implemented, when used on smaller viewports like: on a smartphone galaxy-5 */
+    z-index: 1;                                                                 /* As the text will go under the fixed positioned header & footer and thus loosing content underneath it*/
+}                                                                               /* Question 2: Would this be possible in with an overflow box in % instead of px?*/
+
+.footer {
+    position: fixed;
+    background-color: #a4a4af;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px 15px;
+    width: 100%;
+    z-index: 2;
+}
+
+@media (max-width: 767px) {                                                     /* I only want the overflow for the text to be used in this responsive media query */
+    .main {
+        background-color: #00080;
+    }
+    p {
+        max-height: 100px;
+        overflow-y: scroll;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main {
+      
+        background-color: #000033;
+    }
+    .column-60 {
+        width: 60%;
+        float: left;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .column-40 {
+        width: 40%;
+        float: left;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+ }
+
+@media (min-width: 992px) {
+    .main {
+        background-color: #330066;
+    }
+    .column-60 {
+        width: 60%;
+        float: left;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5em;
+    }
+    .column-40 {
+        width: 40%;
+        float: left;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5em;
+    }
+}

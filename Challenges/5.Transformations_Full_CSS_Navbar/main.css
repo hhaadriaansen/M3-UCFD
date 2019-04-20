@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav{      /* basic navigation bar*/
+  height: 50px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: darkslateblue;
+}
+
+.dropdown-wrapper {  /* wrapper for the button and dropdown-menu: so that it can target the vertical movement of the dropdownmenu and button */
+  width: 150px;
+  position: relative;
+  
+}
+
+.dropdown-wrapper:hover button { /* targets the button element when hovered over the .dropdown-wrapper*/
+  cursor: pointer;
+  background-color: darkslateblue;
+}
+
+.dropdown-wrapper:hover .dropdown-menu {  /* targets the dropdown-menu element when hovered over the .dropdown-wrapper element.*/
+  transform: translateY(0%)
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  tranistion-timing-function: ease-in;
+}
+
+.dropdown-menu {
+  background-color: white;
+  width: 150px;
+  text-align: center;
+  
+  position: absolute;
+  top: 50px;
+  left: 0;
+
+  box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
+  z-index: -1;
+ 
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transform: translateY(-100%)
+}
+
+.dropdown-item{
+  list-style-type: none;
+  background-color: #cfcbe8;
+}
+
+.dropdown-hyperlink {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: darkslateblue;
+
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+
+.dropdown-hyperlink:hover {
+  color: #cfcbe8;
+  background-color: darkslateblue;
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: #400000;
+  color: #d3d3d3;
+  height: 50px;
+}
+
+section {
+  text-align: center;
+  font-size: 18px;
+  background-color: #d3d3d3;
+  color: #400000;
+  height: 100%;
+ }
+
+
+img {
+  height: 500px;
+  width: 500px;
+
+  animation-name: rotating_sun;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+
+  -moz-animation-name: rotating_sun;
+  -moz-animation-duration: 10s;
+  -moz-animation-direction: normal;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -moz-animation-fill-mode: both;
+  
+}
+
+@keyframes rotating_sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

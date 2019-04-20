@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background-color: #d3d3d3;
+  color: #191970;
+  font-weight: bolder;
+}
+
+section {
+  text-align: center;
+  background-color: #191970;
+  color: #d3d3d3; 
+}
+
+.random_image {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  transition-property: width, height;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  -webkit-transition-property: width, height;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in;
+}
+
+.random_image:hover {
+  width: 500px;
+  height: 500px;
+  
+}
