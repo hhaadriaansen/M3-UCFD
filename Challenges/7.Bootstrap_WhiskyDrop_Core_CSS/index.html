@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Harold Adriaansen">
+  <meta name="description" content="Learning how to implement and use Bootstrap, Whiskeydrop Core CSS challenge.">
+  <meta name="keywords" content="Code Institute, UCFD, Module 3, Learning, Bootstrap, challenge, whiskeydrop">
+  <link rel="stylesheet" href="main.css" type="text/css">
+
+  <title>
+    Whiskey Drop | Taste a new whisky every month!
+  </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <a href="/" class="navbar-brand">
+      Whiskey Drop
+    </a>
+
+    <!-- Javascript based BOOTSTRAP:button
+    NOTE: 
+    data-toggle= is telling bootstrap that this button will be used as a trigger for a certain element. 
+    This case an collapsible element somewhere on the page. 
+    data-target= gives the ID of the element it will be using for the data toggle. 
+    In this case it will giv the ID for the collapsible element. 
+    (Which you can see targeted in the second created div.)
+    aria = (accesible rich internet applications): These attributes are used to provide accessibility to screen readers and provide these devices with extra context of the purpose of a particular element of the page.
+    -->
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="active nav-item mr-2">
+          <a class="nav-link" href="/">
+            Home
+          </a>
+        </li>
+
+        <li class=" nav-item mr-2">
+          <a class="nav-link" href="/about">
+            About
+          </a>
+        </li>
+
+        
+        <li class=" nav-item mr-2 d-block d-sm-none">
+          <a class="nav-link" href="/login">
+            Sign In / Sign Up
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="d-none d-md-block">
+      <p class="navbar-text my-auto mr-2">
+        <i>
+          Great whiskey delivered to your door!
+        </i>
+      </p>
+
+      <a href="/login">
+        Sign In / Sign Up
+      </a>
+    </div>
+  </nav>
+
+  <article class="container">
+    <!-- Callout -->
+
+    <div class="row">
+      <div class="col-12">
+        <section class="callout jumbotron mt-3 text-center">
+          <h1>
+            The finest Whiskeys delivered to your doorstep.
+          </h1>
+
+          <p class="lead">
+            Sign Up today to start receiving the world's best whiskeys every month!
+            <s class="d-none d-sm-inline">19,99€</s>
+            <span class="d-inline d-sm-none"></br></span>
+            <!-- Important NOTE:
+            The d-none and d-sm-inline classes are that the stricken 19,99€ element will be gone on smaller mobile viewports. 
+            Inline is used instead of block as it is an inline element-tag!
+            <span class="d-inline d-sm-none" will create that the elment will have its own line when on smaller viewports and will revert back to the same line when on medium viewports!-->
+            <strong><mark>First one is free!</mark></strong>
+          </p>
+
+          <button class="btn btn-success btn-lg">
+            Sign Up!
+          </button>
+
+          <p class="text-muted">
+            <small>You must be over 18 to sign up to our service. Please drink responsibly.</small>
+          </p>
+        </section>
+      </div>
+    </div>
+    <!-- /.Callout -->
+    <hr>
+
+    <!-- Quotes -->
+    <section class="quotes">
+      <div class="row">
+        <div class="col-12 my-5">
+          <h2 class="text-uppercase">
+            Quotes:
+          </h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <blockquote class="blockquote">
+            <p>
+              I've been introduced to more than 10 great international whiskeys I never knew about.
+            </p>
+            <p>
+              Jane Doe
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <blockquote class="blockquote">
+            <p>
+              I haven't been sober for months!
+            </p>
+            <p>
+              Jane Doe
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- /.Quotes-->
+    <hr>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="row">
+        <div class="col-12 my-5">
+          <h2 class="text-uppercase">
+            Features:
+          </h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature">
+            <h3>
+              Feature 1
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque explicabo animi est minima provident,
+              amet
+              quisquam soluta, tenetur natus commodi ut molestiae, corporis mollitia perspiciatis voluptate libero neque
+              beatae?</p>
+            <p>
+              <a class="btn btn-light btn-small">
+                Read More
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature">
+            <h3>
+              Feature 2
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque explicabo animi est minima provident,
+              amet
+              quisquam soluta, tenetur natus commodi ut molestiae, corporis mollitia perspiciatis voluptate libero neque
+              beatae?
+            </p>
+            <p>
+              <a class="btn btn-light btn-small">
+                Read More
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 d-md-none d-lg-block col-lg-4">
+          <!-- Important NOTE:
+            d-md-none will make an element disappear, from middle breakpoint unless specified otherwise. 
+            To make the element visible again on lg screens you have to use:
+            d-lg-block and then specify what you want to do for large screen-size: col-lg-4. -->
+          <div class="feature">
+            <h3>
+              Feature 3
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque explicabo animi est minima provident,
+              amet
+              quisquam soluta, tenetur natus commodi ut molestiae, corporis mollitia perspiciatis voluptate libero neque
+              beatae?
+            </p>
+            <p>
+              <a class="btn btn-light btn-small">
+                Read More
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.Features -->
+    <hr>
+
+    <!-- Favorites -->
+    <section class="favorites">
+      <div class="row">
+        <div class="col-12  my-5">
+          <h3>
+            Monthly Favorites:
+          </h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-striped table-light">
+
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">
+                  ­#
+                </th>
+                <th>
+                  Name:
+                </th>
+                <th scope="col">
+                  Origin:
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row">
+                  1
+                </th>
+                <td>
+                  Jameson
+                </td>
+                <td>
+                  Ireland
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  2
+                </th>
+                <td>
+                  Jack Daniels
+                </td>
+                <td>
+                  USA
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  3
+                </th>
+                <td>
+                  Crown Royal
+                </td>
+                <td>
+                  Canada
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  4
+                </th>
+                <td>
+                  Jim Beans
+                </td>
+                <td>
+                  USA
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  5
+                </th>
+                <td>
+                  Fireball Cinnamon
+                </td>
+                <td>
+                  USA
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- /.Favorites -->
+
+  </article>
+  <!-- Use this scripts when your using Java Script -->
+  <!-- NOTE: The reason that this is on the bottom in stead like css on the top is that it will influence the loading time and loading preference of the page itself. Now all the css and html will be loaded first and the end-user will not have a chance to see a webpage which has no css elements loaded. Which can happen if the loading times will be to long!-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
+</html>
