@@ -30,7 +30,7 @@
     NOTE: 
     data-toggle= is telling bootstrap that this button will be used as a trigger for a certain element. 
     This case an collapsible element somewhere on the page. 
-    data-target= gives the ID of the element it will be using for the data toggle. 
+    data-target=.... gives the ID of the element it will be using for the data toggle. 
     In this case it will giv the ID for the collapsible element. 
     (Which you can see targeted in the second created div.)
     aria = (accesible rich internet applications): These attributes are used to provide accessibility to screen readers and provide these devices with extra context of the purpose of a particular element of the page.
@@ -54,7 +54,31 @@
           </a>
         </li>
 
-        
+        <li class=" nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+
+            Whiskeys
+          </a>
+
+          <div class="dropdown-menu" aria-labelleby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">
+              Irish
+            </a>
+            <a class="dropdown-item" href="#">
+              Scotch
+            </a>
+            <a class="dropdown-item" href="#">
+              Japanese
+            </a>
+            <a class="dropdown-item" href="#">
+              American
+            </a>
+          </div>
+        </li>
+
+        <!-- End of First javascript component-->
+
         <li class=" nav-item mr-2 d-block d-sm-none">
           <a class="nav-link" href="/login">
             Sign In / Sign Up
@@ -122,25 +146,31 @@
 
       <div class="row">
         <div class="col-12 col-md-6">
-          <blockquote class="blockquote">
-            <p>
-              I've been introduced to more than 10 great international whiskeys I never knew about.
-            </p>
-            <p>
-              Jane Doe
-            </p>
-          </blockquote>
+          <div class="media">
+            <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+            <blockquote class="blockquote">
+              <p>
+                I've been introduced to more than 10 great international whiskeys I never knew about.
+              </p>
+              <p>
+                Jane Doe
+              </p>
+            </blockquote>
+          </div>
         </div>
 
         <div class="col-12 col-md-6">
-          <blockquote class="blockquote">
-            <p>
-              I haven't been sober for months!
-            </p>
-            <p>
-              Jane Doe
-            </p>
-          </blockquote>
+          <div class="media">
+            <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+            <blockquote class="blockquote">
+              <p>
+                I haven't been sober for months!
+              </p>
+              <p>
+                John Doe
+              </p>
+            </blockquote>
+          </div>
         </div>
       </div>
     </section>
