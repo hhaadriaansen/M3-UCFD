@@ -35,7 +35,7 @@
     data-target=.... gives the ID of the element it will be using for the data toggle. 
     In this case it will giv the ID for the collapsible element. 
     (Which you can see targeted in the second created div.)
-    aria = (accesible rich internet applications): These attributes are used to provide accessibility to screen readers and provide these devices with extra context of the purpose of a particular element of the page.
+    aria = (accessible rich internet applications): These attributes are used to provide accessibility to screen readers and provide these devices with extra context of the purpose of a particular element of the page.
     -->
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
@@ -419,10 +419,7 @@
   </article>
   <!-- /.Modal -->
 
-
   <!-- Use this scripts when your using Java Script -->
-  <!-- NOTE: The reason that these scripts are listed here on the bottom, instead like the CSS scripts on the top.
-  T that it will influence the loading time and loading preference of the page itself. Now all the css and html will be loaded first and the end-user will not have a chance to see a webpage which has no css elements loaded. Which can happen if the loading times will be to long!-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -434,7 +431,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-
+  <!-- NOTE: The reason that these scripts are listed here on the bottom, instead like the CSS scripts on the top.
+  This is so it will not influence the loading time & preference of the page itself. 
+  Now all the bootstrap-CSS & HTML-code will be loaded first.
+  When it takes a long time to load a webpage the end-user has a chance to see an unfinished webpage as the css will be loaded after the js etc. 
+  Now at all times the HTML and BOOTSTRAP-CSS will be loading first.
+  So a result the end-user will not have a chance to see a webpage, which has no css-elements loaded! -->
 
 </body>
 
