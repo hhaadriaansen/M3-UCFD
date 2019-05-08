@@ -1,0 +1,31 @@
+body { 
+ font-family: 'Roboto', sans-serif;
+}  
+
+.alert-container{
+
+}
+
+.callout-container{
+ height: 100vh;           
+ /* This will make the callout section to be the 100% of viewport height! */
+
+ background: url(images/whiskey-background.jpg) no-repeat bottom right fixed;  
+ /* This part combined with the cover part below will creates a full width background image! */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.quotes-container{
+
+}
+
+.features-container{
+
+}
+
+.favorites-container{
+
+} 
