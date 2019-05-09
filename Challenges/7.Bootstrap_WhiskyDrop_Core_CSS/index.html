@@ -106,7 +106,8 @@
   <!-- /.Navigation bar -->
 
   <!-- Callout -->
-  <div class="container alert-container">
+  <!--
+    <div class="container alert-container">
     <div class="row d-none d-sm-block">
       <div class="col-12">
         <div class="alert alert-warning">
@@ -122,14 +123,18 @@
       </div>
     </div>
   </div>
+-->
 
-  <div class="container callout-container">
+  <div class="container-fluid callout-container">
+    <div class="opaque-overlay">&nbsp;</div> <!-- Important note!
+    The &nbsp; stands for (non-breaking-space) and is used to create multiple lines of space that are visible on a webpage and not only on the source code!-->
     <div class="row">
       <div class="col-12">
         <section class="callout jumbotron mt-3 text-center">
-          <h1>
+          <h1 class="jumbotron-header">
             The finest Whiskeys delivered to your doorstep.
           </h1>
+          <hr class="block-divider block-divider--orange">
 
           <p class="lead">
             Sign Up today to start receiving the world's best whiskeys every month!
@@ -139,10 +144,14 @@
             The d-none and d-sm-inline classes are that the stricken 19,99€ element will be gone on smaller mobile viewports. 
             Inline is used instead of block as it is an inline element-tag!
             <span class="d-inline d-sm-none" will create that the element will have its own line when on smaller viewports and will revert back to the same line when on medium viewports!-->
-            <strong><mark>First one is free!</mark></strong>
+            <strong>
+              <mark>
+                First one is free!
+              </mark>
+            </strong>
           </p>
 
-          <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">
+          <button class="btn btn--red  btn--cta btn-lg" data-toggle="modal" data-target="#signUpModal">
             Sign Up!
           </button>
 
