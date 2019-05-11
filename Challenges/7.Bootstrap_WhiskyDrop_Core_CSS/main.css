@@ -8,7 +8,7 @@ body {
 }
 
 .quotes-con-wrapper {
-  background-color:  #345f70;
+  background-color: #345f70;
   font-weight: bold;
 }
 
@@ -63,12 +63,12 @@ body {
   height: 5px;
   width: 75px;
   border: 0;
-  background-color: #345f70 ;
+  background-color: #345f70;
 }
 
 .block-divider--grayblue {
   background-color: #345f70;
-  }
+}
 
 .block-divider--short {
   width: 35px;
@@ -86,11 +86,15 @@ body {
   margin-bottom: 35px;
 }
 
+
+
 /* Content containers*/
 
 .content-container {
   padding: 75px 0px;
-}  
+}
+
+
 
 /* Navbar*/
 
@@ -124,7 +128,10 @@ body {
   font-weight: bold;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
   color: rgb(52, 95, 112);
 }
 
@@ -183,7 +190,6 @@ mark {
   color: rgba(52, 95, 112, 0.5);
 }
 
-
 /* Callout- Jumbotron */
 
 .jumbotron {
@@ -208,7 +214,6 @@ mark {
   color: #345f70;
 }
 
-
 /* Callout - Buttons */
 
 .btn--red {
@@ -225,6 +230,8 @@ mark {
   border-color: #8a240d;
 }
 
+
+
 /* Quotes! */
 
 .quotes .page-header {
@@ -234,6 +241,7 @@ mark {
 .text-uppercase {
   font-weight: bold;
 }
+
 
 
 /* Features! */
@@ -260,10 +268,14 @@ mark {
   font-weight: bold;
 }
 
+
+
 /* Favorites! */
+
 .dropdown-menu {
   background-color: #e9ecefd5;
 }
+
 .dropdown-item:hover {
   background-color: #37393b80;
 }
@@ -273,4 +285,3 @@ mark {
 .modal-color {
   background-color: #e9ecefd5;
 }
-
