@@ -2,7 +2,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper--red {
+
+/* note Important -
+Here is the css for the  col-12 that i can change to remove the padding for that for the smallest viewport but i think the white strip is comming from the table in the favorite section !) */
+.col-sm-12 {
+  padding: 0;
+}
+
+
+/* ------------------------------------------------ Container-wrappers */
+
+.feature-con-wrapper {
   background-color: #f05f40;
   color: #fff;
 }
@@ -20,7 +30,7 @@ body {
 
 
 
-/* Alert container  */
+/* ----------------------------------------------- Alert container  */
 
 .alert-container .col-12 {
   padding-left: 0;
@@ -43,7 +53,7 @@ body {
 
 
 
-/* Page headers */
+/* ------------------------------------------------------ Page headers */
 
 .page-header {
   margin-bottom: 0px;
@@ -57,7 +67,7 @@ body {
 
 
 
-/* Block (webpage-)dividers */
+/* ----------------------------------------------- Block (webpage-)dividers */
 
 .block-divider {
   height: 5px;
@@ -88,7 +98,7 @@ body {
 
 
 
-/* Content containers*/
+/* --------------------------------------------------- Content containers*/
 
 .content-container {
   padding: 75px 0px;
@@ -96,7 +106,7 @@ body {
 
 
 
-/* Navbar*/
+/* ---------------------------------------------------- Navbar*/
 
 .navalert-container {
   position: absolute;
@@ -145,7 +155,7 @@ body {
 
 
 
-/* Callout! */
+/* ----------------------------------------------------- Callout! */
 
 .callout-container {
   height: 100vh;
@@ -190,7 +200,7 @@ mark {
   color: rgba(52, 95, 112, 0.5);
 }
 
-/* Callout- Jumbotron */
+/* ----------------------------------------------------- Callout- Jumbotron */
 
 .jumbotron {
   background-color: transparent;
@@ -214,7 +224,7 @@ mark {
   color: #345f70;
 }
 
-/* Callout - Buttons */
+/* --------------------------------------------------  Callout - Buttons */
 
 .btn--red {
   color: white;
@@ -232,7 +242,7 @@ mark {
 
 
 
-/* Quotes! */
+/* ------------------------------------------------------------- Quotes! */
 
 .quotes .page-header {
   margin-bottom: 25px;
@@ -244,7 +254,7 @@ mark {
 
 
 
-/* Features! */
+/* ------------------------------------------------------------ Features! */
 
 .feature {
   text-align: center;
@@ -256,7 +266,7 @@ mark {
   line-height: 45px;
 }
 
-/* Features - buttons */
+/* ---------------------------------------------------- Features - buttons */
 
 .feature .btn {
   background-color: white;
@@ -270,7 +280,7 @@ mark {
 
 
 
-/* Favorites! */
+/* -------------------------------------------------------------- Favorites! */
 
 .dropdown-menu {
   background-color: #e9ecefd5;
@@ -280,8 +290,10 @@ mark {
   background-color: #37393b80;
 }
 
-/* modal */
+/* ------------------------------------------------------------------ modal */
 
 .modal-color {
   background-color: #e9ecefd5;
 }
+
+
