@@ -1,0 +1,210 @@
+User Experience Design.
+
+The 5 planes of UX.
+
+
+Recap previous planes:
+In the strategy plane i decided to make a personal resume website for myself. 
+I concluded that this would be beneficial for recruiters and companies to get in contact and to help me create online awareness of my brand/person.
+
+Also i made a Mind-map idea of the features/ content it should have which we will define more in the upcoming scope plane. 
+
+For now the first idea: 
+- Resume link or resume itself.
+- Logo
+- Interactive tiles with topics:
+  Tile 1: Video presentation: Where in you present yourself and the page.
+  Tile 2: Education / skill-set.
+  Tile 3: Work portfolio.
+  Tile 4: Git Hub repositories & projects.
+  Tile 5: VS-code, Cloud9 other languages/ Tools used.
+  Tile 6: Hobbies / Something funny
+  Tile 7: Work Experience.
+  Tile 8: Contact form:
+    -- Option to send directly files for application. 
+    -- Social media implementation.
+    For example: Linked-in.
+  Tile 9: Pictures.
+  Tile 10: about myself/ Biography.
+
+  ----------------------------------------------------------------------------------------------------------------------------- Scope plane:
+
+Here we have to make certain choices as to What / When we are going to include in the current output. 
+
+We are going to look at the following questions:
+
+- What features / content requirements are needed to be included for our product design?
+(Based on our business goals, strategy plane outcome & research )
+
+- Functional specifications: 
+What is the Feature set?
+
+- Content specifications: 
+What content is required to provide value?
+
+- What is the value of each feature / content for our website?
+(So what will be on / off the table with the upcoming initial (MVP) release and what will come after that in a future update?)
+
+So lets start!
+----------------------------------------------------------------
+
+1: What features / content requirements are needed to be included for our product design?
+
+After a brainstorm with multiple people and in combination of the first idea feature mash-up & online research, I made a decision about which features/contents are needed into this project.
+
+- feature requirements:
+1: Navigation through different navigational tiles towards the different content information.
+2: Watch video of myself giving an intro & directions to the website. 
+3: Contacting information and contacting opportunity for recruiters / companies. 
+4: downloading my resume for a more traditional sense of application.
+5: Working chat function.
+6: Links to Github repositories or targeted social media applications.
+7: Intro animation feature.
+8: Personal funny features for about me or something funny.
+
+
+- Content requirements: 
+1: Personal video content. 
+2: Logo image.
+3: Personal picture.
+4: Personal information.
+5: Work history.
+6: Skill-set /Tool summary.
+7: Educational summary.
+8: Undertaken projects / collaborations.
+9: contacting information options.
+10: links to social media / github repositories.
+11: Hobbies or funny content: 
+-- (Travel map which pinpoints where I've been to)
+-- (Code written feature)
+-- (something im currently busy with 
+-- (what i like /dislike to give it a more personal flavour!)
+-- (personalized map/ calender as to what im doing currently and what to do in future.)
+12: Personal pitch for collaborators / recruiters / companies.
+
+- Content/ Feature value:
+As we do not have unlimited resources available to work with given the available time and skill-set needed for this project it is imperative to create a structured build-up in different releases.
+In that light i will see what the core /must have features /content are.
+And see what has to be included in the MPV/Initial release in the initial release stage of this website. 
+and in the next 2 updates.
+Keep in mind that this is a flexible layout and that it will be changed if necessary to avoid Slippage & Scope Creep.
+
+
+1st step:
+I will determine the value of the features and content. 
+
+- feature requirements: 
+(Value of importance 1-5) / (Viability or Feasibility 1-3)
+
+1: Navigation through different navigational tiles towards the different content information.  
+5 / 2
+
+2: Watch video of myself giving an intro & directions to the website. 
+3 / 3
+
+3: Contacting information and contacting opportunity for recruiters / companies. 
+5 / 1
+
+4: downloading my resume for a more traditional sense of application.
+5 / 1
+
+5: Working chat function.
+2 / 3
+
+6: Links to Github repositories or targeted social media applications.
+1 / 3
+
+7: Intro animation feature.
+3 / 3
+
+8: Personal funny features for about me or something funny.
+2 / 2
+
+
+- Content requirements: 
+1: Personal video content. 
+3 / 3
+
+2: Logo image.
+4 / 1
+
+3: Personal picture.
+5 / 1
+
+4: Personal information.
+5 / 1
+
+5: Work history.
+5 / 1
+
+6: Skill-set /Tool summary.
+5 / 1
+
+7: Educational summary.
+5 / 1
+
+8: Undertaken projects / collaborations.
+4 / 2
+
+9: contacting information options.
+5 / 2
+
+10: links to social media / github repositories.
+3 / 2
+
+11: Hobbies or funny content: 
+1 / 3
+-- (Travel map which pinpoints where I've been to)
+-- (Code written feature)
+-- (something im currently busy with 
+-- (what i like /dislike to give it a more personal flavour!)
+-- (personalized map/ calender as to what im doing currently and what to do in future.)
+
+12: Personal pitch for collaborators / recruiters / companies.
+3 / 2
+        +
+-------
+36 points respectively i difficulty when summed up.
+As we want 3 releases it will be 36:3 = 12 points per release.
+
+
+2nd step: 
+As decided earlier I will make at least 3 releases. 
+Here in step 2, I group see to the scope trade offs.
+As such we will refine the content / features against te businessgoals and see what is a must-have feature/content for this MVP / Initial product release.
+(As a guideline we will have 12 point maximum in difficulty per release.)
+
+-MVP (Initial release):
+1: Navigation through different navigational tiles towards the different content information.  
+2: Logo image.
+3: Personal picture.
+4: Personal information.
+5: Work history.
+6: Skill-set /Tool summary.
+7: Educational summary.
+8: Personal pitch for collaborators / recruiters / companies.
+9: Contacting information and contacting opportunity for recruiters / companies. 
+10: downloading my resume for a more traditional sense of application.
+
+-2nd release:
+1: Intro animation feature.
+2: Personal funny features for about me or something funny.
+3: Undertaken projects / collaborations.
+4: contacting information options.
+5: links to social media / github repositories.
+6: Links to Github repositories or targeted social media applications.
+
+
+-3rd release: 
+1: Watch video of myself giving an intro & directions to the website. FEATURE
+2: Personal video CONTENT. 
+3: Working chat function.
+4: Hobbies or funny content: 
+-- (Travel map which pinpoints where I've been to)
+-- (Code written feature)
+-- (something im currently busy with 
+-- (what i like /dislike to give it a more personal flavour!)
+-- (personalized map/ calender as to what im doing currently and what to do in future.)
+
+Of course this can be extended to more updates if necessary.
+But this is the layout plan as for now.
