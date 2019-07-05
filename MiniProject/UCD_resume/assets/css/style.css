@@ -174,15 +174,12 @@ footer {
 .social-links li a span.fa-i {
   width: 32px;
   height: 32px;
-  padding: 12px;
+  padding: 12px 0;
   border-radius: 50%;
   line-height: 7px;
   color: #fafafa;
   background: #8f8f8f;
   text-align: center;    
-  /* text-align: center; 
-  Does not do anything with the code, why? 
-  Does it have something to do with the span class="fa-i" instead of i-element?? */ 
 
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
