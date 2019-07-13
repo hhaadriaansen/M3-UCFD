@@ -72,14 +72,46 @@
 
   <section class="container-fluid">
     <div class="row">
-      <div class="col-md-4 bg-color-personal-info section-column">
+      <div class="col-md-4 bg-color-work-history section-column">
         <div class="row">
           <div class="col-12">
-            <h3 class="section-heading uppercase">Work History</h3>
+            <h3 class="history-heading uppercase">Work History</h3>
+          </div>
+        </div>
+<!-- Section-Work history -->
+        <div class="history-items">
+          <div class="timeline-item" data-dates="02/1998 - 04/2004">
+            <!-- IMPORTANT!! custom attributes:
+          - data-.....:
+          Often with frameworks you can set on any element a custom attribute. 
+          For example: data-toggle & data-target.
+          In this case we are going to target the dates of the timeline. 
+          Now its very important when you are creating custom attributes to use the data-prefix!
+          What comes afterwards can be whatever you like, but generally it is best to make it something that uses it's purpose. 
+          This way other developers can differentiate your attributes from the default one.
+          As such we will be using the data-dates. 
+          -->
+            <h4>National College of Art and Design (NCAD)</h4>
+            <p>Sculptor in residence</p>
+          </div>
+
+          <div class="timeline-item" data-dates="04/2004 - 06/2008">
+            <h4>Fisher and Diaz Funeral Directors</h4>
+            <p>Junior Embalmer</p>
+          </div>
+
+          <div class="timeline-item" data-dates="06/2008 - 06/2011">
+            <h4>Phantom Design inc. Dublin</h4>
+            <p>Junior Front End Developer</p>
+          </div>
+
+          <div class="timeline-item" data-dates="06/2011 - Present">
+            <h4>Hooli Inc. Sillicon Valley</h4>
+            <p>Full Stack Web Developer</p>
           </div>
         </div>
       </div>
-
+<!-- Section-Skills -->
       <div class="col-md-8 bg-color-three-reasons section-column">
         <div class="row">
           <div class="col">
@@ -98,7 +130,8 @@
               <div class="col-10">
                 <h4 class="three-reasons-heading uppercase">Front End</h4>
                 <p>
-                  I'm a skilled User Experienced Design using the trinity of HTML/ CSS/ JavaScript. I also have extensive experience in Front End Frameworks such as Angular and React.
+                  I'm a skilled User Experienced Design using the trinity of HTML/ CSS/ JavaScript. I also have
+                  extensive experience in Front End Frameworks such as Angular and React.
                 </p>
               </div>
             </div>
@@ -109,13 +142,14 @@
               <div class="col-2">
                 <span class="three-reasons-icon fa fa-gears" aria-hidden="true"></span>
                 <!-- fa-gears:
-                This icon is often used for Back End developement! 
+                This icon is often used for Back End development! 
                 -->
               </div>
               <div class="col-10">
                 <h4 class="three-reasons-heading uppercase">Back End</h4>
                 <p>
-                  I Specialize in data-driven web applications. Many of my projects utilise document-based data. I use Python and Django in conjunction with MongoDB to process and present information.
+                  I Specialize in data-driven web applications. Many of my projects utilise document-based data. I use
+                  Python and Django in conjunction with MongoDB to process and present information.
                 </p>
               </div>
             </div>
@@ -124,9 +158,10 @@
 
         <div class="row progress-section">
           <div class="col">
-            
+
             <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" ariavaluemin="0" ariavaluemax="100" style="width:90%;">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                style="width:90%;">
                 <!-- Progress bar: 
                 To use a progress bar we need the class of progress-bar and give it a role-attribute.(In this case a progressbar.)
                 Next we need to give it a range & a status of where the progressbar currently resides. (aria-valuemin = start. aria valuemax = end range of the progress bar. aria-valuenow= current status of progressbar.
@@ -141,28 +176,32 @@
             </div>
 
             <div class="progress">
-              <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" ariavaluemin="0" ariavaluemax="100" style="width:80%;">
+              <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100" style="width:80%;">
                 <span class="sr-only">80% complete</span>
               </div>
               <span class="progress-type">CSS / CSS3</span>
             </div>
 
             <div class="progress">
-              <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" ariavaluemin="0" ariavaluemax="100" style="width:70%;">
+              <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                aria-valuemax="100" style="width:70%;">
                 <span class="sr-only">70% complete</span>
               </div>
               <span class="progress-type">JavaScript / JQuery</span>
             </div>
 
             <div class="progress">
-              <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" ariavaluemin="0" ariavaluemax="100" style="width:80%;">
+              <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100" style="width:80%;">
                 <span class="sr-only">80% complete</span>
               </div>
               <span class="progress-type">Django / Python</span>
             </div>
 
             <div class="progress">
-              <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" ariavaluemin="0" ariavaluemax="100" style="width:80%;">
+              <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100" style="width:80%;">
                 <span class="sr-only">80% complete</span>
               </div>
               <span class="progress-type">SQL / NoSQL</span>
