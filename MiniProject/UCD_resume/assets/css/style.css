@@ -32,6 +32,10 @@
   background-color: #f4f4f4;
 }
 
+.bg-color-contact{
+  background-color: #ffffff;
+}
+
 
 /* -----------------------Special padding, margins, text */
 h1,
@@ -169,7 +173,7 @@ header {
 /* -----------------------section: Three reasons */
 .three-reasons-icon {
   font-size: 26px;
-  color: #E70000;
+  color: #E84610;
 }
 
 .three-reasons-heading {
@@ -333,4 +337,39 @@ footer {
 
 .history-items {
   margin-bottom: 30px;
+}
+
+
+/* ----------------------- Contact Form */
+
+.contact-heading {
+  font-family: "Exo", sans-sarif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: rgba(255, 238, 0, 0.897);
+}
+
+
+/* ----------------------- Media Queries */
+
+@media(min-width: 992px) {
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }
